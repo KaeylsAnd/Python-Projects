@@ -1,0 +1,7 @@
+num1 = float(input("Enter Amount: "))
+num2 = float(input("Enter Discount: "))
+mul = (num2 * num1)
+div = (mul / 100)
+sub = (num1 - div)
+print ("Dicsounted Price:" , int(div))
+print ("New Amount: " , int(sub))
